@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <title>Profielpagina Niek</title>
+    </head>
+    
+
+    
+<body style="background-color:#000000;">
+    
+    <div style="background-color: #D4A5A5; padding: 20px; position: relative">
+        
+    <h1 style="color:#ffffff; font-family:verdana;" >Niek Vissers</h1> 
+        
+        <button type="button" style="position: absolute; top:20px; right:20px; background-color:#D4A5A5; border: none; font-family:verdana"><b>Back</b></button>
+        
+    </div>
+    
+    <h3 style="color:#ffffff; font-family: 'century gothic', sans-serif;"><b>Wie ben ik?</b></h3>
+    
+    <p style="color:#ffffff; font-family: 'courier new', sans-serif;">Hoi, ik ben Niek. Welkom op mijn profielpagina!<br>Ik ben ben geduldig en help graag!</p>
+    
+    <h3 style="color:#ffffff; font-family: 'century gothic', sans-serif;"><b>Mijn hobby's:</b></h3>
+    
+    <ul style="color:#ffffff; font-family: 'century gothic', sans-serif;">
+        
+        <li>Tafeltennis
+            <ul>    
+                <li>HTTC</li>
+                <li>3e klasse</li>
+            </ul>
+        </li>
+        <li>Speedcuben
+            <ul>
+                <li>3x3 record: 14 sec</li>
+                <li>Favoriete cube: GAN 16 Max</li>
+            </ul>
+        </li>
+    </ul>
+
+    
+</body>
+</html>
