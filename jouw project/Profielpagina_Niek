@@ -2,7 +2,22 @@
 <html lang="nl">
 <head>
     <title>Profielpagina Niek</title>
-    </head>
+    
+    <link rel="stylesheet" href="mystyle.css">
+    
+    <script>
+    function togglemenu() {
+        const menu= document.getElementById("menu");//const is een manier om een constante variabele aan te geven//
+    if (menu.style.display === "block"){//als het menu zichtbaar is, verberg het dan//
+        menu.style.display = "none";
+    }
+    else{
+        menu.style.display = "block";//als het menu niet zichtbaar is, laat het dan verschijnen//
+    }
+    }
+    </script>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
     
 
     
@@ -10,19 +25,22 @@
     
     <div style="background-color: #D4A5A5; padding: 20px; position: relative">
         
-    <h1 style="color:#ffffff; font-family:verdana;" >Niek Vissers</h1> 
+    <h1>Niek Vissers</h1> 
         
-        <button type="button" style="position: absolute; top:20px; right:20px; background-color:#D4A5A5; border: none; font-family:verdana"><b>Back</b></button>
-        
+        <div class="driepuntjes" ; onclick="togglemenu()">⋮</div>
+        <div class="menu" ; id="menu">
+        <button onclick="location.href='Index.html'" style="position: fixed; top:50px; right:40px; background:none; border:none;cursor:pointer;"><b>Terug</b></button><br><!-- knop die naar startpagina leidt-->
+        <button onclick="location.href='Tussenopdracht 2.html'" style="position: fixed; top:70px; right:40px; background:none; border:none;cursor:pointer"><b>Rooster</b></button><!-- knop die naar rooster leidt-->
+        </div>
     </div>
     
-    <h3 style="color:#ffffff; font-family: 'century gothic', sans-serif;"><b>Wie ben ik?</b></h3>
+    <h3><b>Wie ben ik?</b></h3>
     
-    <p style="color:#ffffff; font-family: 'courier new', sans-serif;">Hoi, ik ben Niek. Welkom op mijn profielpagina!<br>Ik ben ben geduldig en help graag!</p>
+    <p>Hoi, ik ben Niek. Welkom op mijn profielpagina!<br>Ik ben ben geduldig en help graag!</p>
     
-    <h3 style="color:#ffffff; font-family: 'century gothic', sans-serif;"><b>Mijn hobby's:</b></h3>
+    <h3><b>Mijn hobby's:</b></h3>
     
-    <ul style="color:#ffffff; font-family: 'century gothic', sans-serif;">
+    <ul>
         
         <li>Tafeltennis
             <ul>    
@@ -37,6 +55,10 @@
             </ul>
         </li>
     </ul>
+
+
+</body>
+</html>
 
     
 </body>
