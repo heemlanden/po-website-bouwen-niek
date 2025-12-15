@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Rooster Niek</title>
+        <link rel="stylesheet" href="mystyle.css">
+         <link rel="icon" type="image/x-icon" href="favicon.png">
+    </head>
+    <body>
+    <h1>Rooster</h1>
+    <div style="background-color:#fff; position: absolute; border-radius: 10px;width:50px; height:50px; top:20px; left:155px"> <!--achtergrond voor agenda-->
+    <img src="Rooster_icon.png" style="position:absolute; height:40px; top:5px; left:5px"> <!--afbeelding van agenda-->
+    </div>
+    <button style="position:absolute; right:10px; top:10px; background:none; color:#ffffff; border:none; cursor:pointer;" onclick="location.href='Profielpagina_Niek.html'"><b>Terug</b></button><!--knop die teruggaat naar standaard profielpagina-->
+    <table>
+        <tr>
+            <th>Tijd</th>
+            <th>Maandag</th>
+            <th>Dinsdag</th>
+            <th>Woensdag</th>
+            <th>Donderdag</th>
+            <th>Vrijdag</th>
+        </tr>
+        <tr>
+            <td>9:00-9:40</td>
+            <td>Dagstart</td>
+            <td>Dagstart</td>
+            <td>Dagstart</td>
+            <td>Dagstart</td>
+            <td>Dagstart</td>
+        </tr>
+        <tr>
+            <td>9:45-10:55</td>
+            <td>Engels</td>
+            <td>Wiskunde D</td>
+            <td>Lichamelijke Opvoeding</td>
+            <td>Coaching</td>
+            <td>Coaching</td>
+        </tr>
+        <tr>
+            <td>11:20-12:30</td>
+            <td>Coaching</td>
+            <td>Coaching</td>
+            <td>Wiskunde B</td>
+            <td>Scheikunde</td>
+            <td>Coaching</td>
+        </tr>
+        <tr>
+            <td>12:35-13:45</td>
+            <td>Bedrijfseconomie</td>
+            <td>Literatuur</td>
+            <td>CKV</td>
+            <td>Spaans</td>
+            <td>Informatica</td>
+        </tr>
+        <tr>
+            <td>14:00-15:10</td>
+            <td>Interscience</td>
+            <td>Coaching</td>
+            <td>Coaching</td>
+            <td>Coaching</td>
+            <td>Coaching</td>
+        </tr>
+    </table>
+        
+    
+    </body>
+</html>
