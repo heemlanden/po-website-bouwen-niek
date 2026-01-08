@@ -1,5 +1,9 @@
 body{
-    background-color:black /*zwarte achtergrond*/
+    background-color:black; /*zwarte achtergrond*/
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
 }
 
 h1{
@@ -14,8 +18,12 @@ h3{
 p{
     color:#ffffff; font-family: 'courier new', sans-serif/*wit/courir new lettertype bij paragraph*/
 }
+#specialP{
+    color:#000; font-family: 'courier new', sans-serif;/*wit/courir new lettertype bij paragraph*/
+    padding-left:20px;
+}
 html,body{
-    height:93,25%;/*hoogte pagina, 93,25% zodat rooster op pagina past*/
+    height:100%;/*hoogte pagina, 100%*/
     margin:0
 }
 .driepuntjes{ /*eigen stijl voor .driepuntjes op profielpagina*/
@@ -47,4 +55,70 @@ th{/*stijl tabel*/
 }
 th,td{/*stijl tabel*/
     padding:10px
+}
+/*style voor beide kanten*/
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;/*zorgt ervoor dat dit de onderste laag is*/
+  top: 0;
+  overflow-x: hidden; /*verbergt horizontale scrollbar*/
+  padding-top: 20px;
+  background-color:#D4A5A5; /* 1 achtergrondkleur voor zoekbalk en left panel */
+}
+
+/* style linkerkant */
+.left {
+    display:flex;
+    flex-direction:column;
+    left: 0;
+    width:70%;
+}
+
+/* style rechterkant */
+.right {
+    right: 0;
+    width:30%;
+  
+}
+
+#myInput {
+    width: 100%; /* breedte */
+    font-size: 18px; /* lettergrootte in zoekbalk */
+    padding: 12px;
+    border: 1px solid #ddd; /* grijze rand */
+    margin-bottom: 12px; /* ruimte tussen zoekbalk en namen */
+}
+
+#myUL {
+/* Standaard stijl voor lijst weghalen */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    background-color: #fff; /* witte achtergrond */
+    padding: 12px; 
+    text-decoration: none; /* streep onder tekst weg */
+    font-size: 18px;
+    color: black;
+    display: block; /* zorgt ervoor dat de lijst de hele rechterkant vult */
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* hover effect op alles behalve de header */
+}
+
+#titleDiv{
+    background-color: #D4A5A5;
+    padding: 20px;
+    position: relative;
+    margin: 5px;
+    border-radius:5px;
+}
+footer{
+    margin-top:auto; /*zorgt ervoor dat footer rechtsonder is*/
+    margin-left:auto;
 }
