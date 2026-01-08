@@ -1,17 +1,73 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <title>Startpagina</title>
         <link rel="stylesheet" href="mystyle.css">
         <link rel="icon" type="image/x-icon" href="favicon.png">
+        <!-- invoegen van de scripts--> 
+        <script src=scripts.js></script> 
+        <!-- invoegen fontawesome4 iconen -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+    
     <body>
-    <h1>Start</h1>
-    <div style="position:absolute; background-color:#D4A5A5; width:1040px; height:400px; left:0px; right:280px;"><!--roze div aan linkerkant-->
-        <button onclick="location.href='Profielpagina_Niek.html'" style="background:none; border:none; cursor:pointer; position:absolute; width:auto; align-items:center; height:50px;"><img src="Profile%20icon.png" style="width:50px; height:50px;">Niek Vissers</button><!--knop naar profielpagina-->
+    <header>
+    <h1>Start</h1>    
+    </header>
+    <!-- het linkerscherm -->
+    <div class="split left"><!--roze div aan linkerkant-->
+        <h1 style="padding-left:20px;">Start</h1>
+        <p id="specialP">
+        Welkom bij Heemlanden Connection!<br>
+        Dé plek waar school en vrienden samenkomen. Deel updates, ontdek wat er speelt en blijf altijd verbonden met je klasgenoten en vrienden.<br><br>
+        Vind je klasgenoten met de zoekbalk hierboven en leer elkaar beter kennen!
+        </p>
+        <footer>
+            <p>Made by Niek Vissers</p>
+        </footer>
     </div>
     
-    <div style="position:absolute; background-color:white; width:240px; height:800px; right:0px; top:0"></div><!--witte div aan rechterkant-->
+        <!-- het rechterscherm -->
+    <div class="split right">
+        
+        <!-- class fa is gebruik van fontawesome4; placeholder-code is voor searchicon F002 -->
+        <input type="text" class="fa" id="myInput" onkeyup="myFunction()" placeholder="&#xf002; Zoek op naam"> <!--tekst in zoekbalk-->
+    <aside>
+        <ul id="myUL"> <!--lijst met namen-->
+            <li><a href="#">Anouar</a></li>
+            <li><a href="#">Axel</a></li>
+            <li><a href="#">Ayana</a></li>
+            <li><a href="#">Boudewijn</a></li>
+            <li><a href="#">Cas</a></li>
+            <li><a href="#">Christopher</a></li>
+            <li><a href="#">Dylan</a></li>
+            <li><a href="#">Elin</a></li>
+            <li><a href="#">Fenna</a></li>
+            <li><a href="#">Fiene</a></li>
+            <li><a href="#">Freek</a></li>
+            <li><a href="#">Jasper</a></li>
+            <li><a href="#">Jesper</a></li>
+            <li><a href="#">Jurre</a></li>
+            <li><a href="#">Lars</a></li>
+            <li><a href="#">Loïs</a></li>
+            <li><a href="#">Michael</a></li>
+            <li><a href="Tussenopdracht 1.html">Niek</a></li>
+            <li><a href="#">Niels</a></li>
+            <li><a href="#">Robin</a></li>
+            <li><a href="#">Ruben</a></li>
+            <li><a href="#">Sam</a></li>
+            <li><a href="#">Samar</a></li>
+            <li><a href="#">Sjoerd</a></li>
+            <li><a href="#">Tessel</a></li>
+            <li><a href="#">Teun</a></li>
+            <li><a href="#">Tibbe</a></li>
+            <li><a href="#">Ties</a></li>
+        </ul>
+    </aside>
+    </div>
+
     </body>
+    
 </html>
+<!--Mijn vader heeft mij geholpen bij het begrijpen van delen van mijn code-->
